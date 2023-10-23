@@ -1,0 +1,26 @@
+.formСontainer {
+  box-sizing: border-box;
+  max-width: 400px;
+  padding: 15px;
+  margin: 0 auto;
+  background-color: #A4A9AD;
+}
+
+/* Стили для каждого input */
+.input {
+  box-sizing: border-box;
+  display: block;
+
+  /* Расстояние между input-элементами */
+  width: 100%;
+  padding: 6px;
+
+  /* Размещение input в вертикальной колонке */
+  margin-bottom: 10px;
+
+  /* Растянуть input по ширине формы */
+}
+
+.formHeading {
+  color: white;
+}

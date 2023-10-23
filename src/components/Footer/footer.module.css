@@ -1,0 +1,9 @@
+.footer {
+  position: sticky;
+  bottom: 0;
+  background-color: #EF5B5B;
+}
+
+.footerHeading {
+  margin: 0;
+}

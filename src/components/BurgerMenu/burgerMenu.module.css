@@ -1,0 +1,53 @@
+/* BurgerMenu.module.css */
+.burgerMenu {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  z-index: 4;
+  width: 300px;
+  height: 100%;
+  color: black;
+  background-color: #333;
+  transition: right 0.3s ease-in-out;
+}
+
+.open {
+  right: 0;
+}
+
+.burger {
+  position: absolute;
+  top: 13px;
+  right: 352px;
+  font-size: 60px;
+  cursor: pointer;
+}
+
+
+.burger:hover {
+  color: rgb(195 195 195);
+}
+
+.bar {
+  width: 30px;
+  height: 3px;
+  margin: 6px 0;
+  background-color: #fff;
+}
+
+.menu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  list-style: none;
+  transform: translate(-50%, -50%);
+}
+
+.menu li {
+  margin: 10px 0;
+  font-size: 24px;
+  color: #fff;
+}

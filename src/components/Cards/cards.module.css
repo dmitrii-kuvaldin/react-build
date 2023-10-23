@@ -1,0 +1,29 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  box-sizing: border-box;
+  display: inline-block;
+  width: calc(25% - 20px);
+
+  /* 25% для 4 карточек в ряду с отступами между ними */
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (width <=767px) {
+  .card {
+    width: 95%;
+
+    /* На мобильных устройствах карточки будут занимать всю ширину */
+  }
+}
